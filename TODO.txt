@@ -21,7 +21,6 @@
             (https://www.upgrad.com/blog/oops-interview-questions-answers-for-freshers-experienced/)
         - Top 10 Essential OOP Interview Questions []
             (https://www.educba.com/oop-interview-questions/)
-        - 
 
 * Data structures (complexities and structure):
     - Array []
