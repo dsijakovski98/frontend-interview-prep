@@ -1,0 +1,26 @@
+* Backend
+    1. HTTP Status codes?
+        - 2xx => Success
+            - 200 OK
+            - 201 Created
+
+        - 3xx => Redirection
+            - 204 Not Modified
+        
+        - 4xx => Client error
+            - 400 Bad Request
+            - 401 Unauthorized
+            - 404 Not Found
+        
+        - 5xx => Server error
+            - 500 Internal Server Error
+
+    2. HTTP request/response?
+        - HTTP request is a message from the client to the server, there are many types of HTTP request messages, such as GET, POST, PUT, DELETE, UPDATE, PATCH etc
+        - HTTP response is the message that the server sends back to the client in a reponse to a HTTP request.
+        - Both HTTP request and response messages contain headers - key value pairs that contain some metadata about the message and optionally contain a body - the actual data being sent/received
+
+    3. PUT vs PATCH vs POST?
+        - HTTP PUT - creates a new resource on the server side, if such a resource already exists, it gets replaced by the new resource
+        - HTTP PATCH - performs partial updates on a resource on the server side
+        - HTTP POST - creates a new resource on the server side, it doesn't matter if such a resource already exists because this request will create a new one

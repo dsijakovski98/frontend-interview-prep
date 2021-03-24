@@ -1,9 +1,9 @@
 - Backend:
 
-  - HTTP status Codes []
-  - HTTP request/response []
-  - PUT vs PATCH vs POST []
-  - PUT vs GET []
+  - HTTP status Codes [x]
+  - HTTP request/response [x]
+  - PUT vs PATCH vs POST [x]
+  - POST vs GET [x]
 
 - Frontend:
 
