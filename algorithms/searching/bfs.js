@@ -8,8 +8,8 @@ const bfs_traversal_iterative = (root) => {
     queue.push(root);
     visited.push(root.data);
 
-    while(queue.length > 0) {
-        let current = queue.shift();
+    while(queue.length) {
+        const current = queue.shift();
 
         // Process node
         console.log(current.data);

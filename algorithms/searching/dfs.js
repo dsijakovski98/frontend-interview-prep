@@ -2,14 +2,14 @@ const data = require('./graph');
 const root = data.root;
 
 const dfs_traversal_iterative = (root) => {
-    let stack = [];
-    let visited = [];
+    const stack = [];
+    const visited = [];
 
     stack.push(root);
     visited.push(root.data);
 
-    while(stack.length > 0){
-        let current = stack.pop();
+    while(stack.length){
+        const current = stack.pop();
         
         // Process node
         console.log(current.data);

@@ -25,6 +25,9 @@
         - HTTP PATCH - performs partial updates on a resource on the server side
         - HTTP POST - creates a new resource on the server side, it doesn't matter if such a resource already exists because this request will create a new one
 
+    4. PUT vs GET?
+        - HTTP PUT - message used to create a resource on the server side, has a body
+        - HTTP GET - message used to get some resource from the server, doesn't have a body
 
 * Frontend
     1. React Lifecycle methods?
@@ -57,12 +60,12 @@
             - An interface is a programming structure that enforces certain methods on an object, an object that implements an interface must implement the methods from that interface
 
         2.3 Abstract class?
-            - Usually parent classes that child classes inherit from. Abstract classes contain abstract methods, which are methods not yet implemented by the parent, but by the child classes inheriting that class
+            - Usually parent classes that child classes inherit from. Abstract classes contain abstract methods, which are methods not yet implemented by the parent, rather by the child classes inheriting that class
             - Cannot be instantiated
 
         2.4 Interface vs Abstract class?
             - Interfaces cannot have properties, abstract classes can
-            - Interfaces methods must be public, abstrac clasess' methods can be public or protected
+            - Interfaces' methods must be public, abstrac clasess' methods can be public or protected
             - All of the methods in an interface are abstract, the abstract keyword isn't needed, abstract classes can contain non-abstract methods
             - A class can inherit from only one parent class, but can implement multiple interfaces
 
